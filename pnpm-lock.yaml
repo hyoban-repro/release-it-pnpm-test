@@ -30,8 +30,8 @@ importers:
         specifier: ^17.2.0
         version: 17.2.0(typescript@5.4.5)
       release-it-pnpm:
-        specifier: ^4.3.6
-        version: 4.3.6(release-it@17.2.0(typescript@5.4.5))
+        specifier: ^4.3.7
+        version: 4.3.7(release-it@17.2.0(typescript@5.4.5))
       typescript:
         specifier: ^5.4.5
         version: 5.4.5
@@ -270,11 +270,6 @@ packages:
   '@hyoban/bumpp@9.4.0-1':
     resolution: {integrity: sha512-y+h2Mwi+TeiwoNu4mLm5ZK0PgIPxrRKjL2AvNGWIP3555h/ijJdBTDHuhE3K0EIJz6LpIOSH3rS6KFe3wmLS4g==}
     engines: {node: '>=10'}
-    hasBin: true
-
-  '@hyoban/changelogithub@0.13.6-0':
-    resolution: {integrity: sha512-P3Fcb1hxcNOnypxVcXgFAJAwD72CpqsDpSKB5D00VQwbmUqfUEEav3hzsM/yaO26/HBKEBjn2+6GyNe7hTVT5g==}
-    engines: {node: '>=12.0.0'}
     hasBin: true
 
   '@iarna/toml@2.2.5':
@@ -923,6 +918,11 @@ packages:
 
   changelogen@0.5.5:
     resolution: {integrity: sha512-IzgToIJ/R9NhVKmL+PW33ozYkv53bXvufDNUSH3GTKXq1iCHGgkbgbtqEWbo8tnWNnt7nPDpjL8PwSG2iS8RVw==}
+    hasBin: true
+
+  changelogithub@0.13.7:
+    resolution: {integrity: sha512-L3MxTtHIle5SjNc392+x8V85kxtUTIhLC+6ChScXHFsOqcC8tLNQ06ZA4iBku5OqIIQicnKA7ZIyfQqMCB+vvA==}
+    engines: {node: '>=12.0.0'}
     hasBin: true
 
   chardet@0.7.0:
@@ -2660,8 +2660,8 @@ packages:
     resolution: {integrity: sha512-qx+xQGZVsy55CH0a1hiVwHmqjLryfh7wQyF5HO07XJ9f7dQMY/gPQHhlyDkIzJKC+x2fUCpCcUODUUUFrm7SHA==}
     hasBin: true
 
-  release-it-pnpm@4.3.6:
-    resolution: {integrity: sha512-W5FHXGM7jlhPWY55fsqiBOfkVGe2dPa+5LqdxCm1RCXj3YtGWpRY+MjQPIYInxc28wU9Orqg7mbZVx0afxtgmQ==}
+  release-it-pnpm@4.3.7:
+    resolution: {integrity: sha512-j2omvLch9B5SrjpzySMHl2X0bYvgTN45bVKwbVGR3EO+vUgbmc64/nKIWEWLSYucg7PO5TJQqPpz9GDw5GhEaw==}
     hasBin: true
     peerDependencies:
       release-it: ^17.0.0
@@ -3539,18 +3539,6 @@ snapshots:
       prompts: 2.4.2
       semver: 7.6.0
 
-  '@hyoban/changelogithub@0.13.6-0':
-    dependencies:
-      '@antfu/utils': 0.7.7
-      c12: 1.10.0
-      cac: 6.7.14
-      changelogen: 0.5.5
-      convert-gitmoji: 0.1.3
-      execa: 8.0.1
-      kolorist: 1.8.0
-      ofetch: 1.3.4
-      semver: 7.6.0
-
   '@iarna/toml@2.2.5': {}
 
   '@jest/schemas@29.6.3':
@@ -4244,6 +4232,18 @@ snapshots:
       semver: 7.6.0
       std-env: 3.5.0
       yaml: 2.4.1
+
+  changelogithub@0.13.7:
+    dependencies:
+      '@antfu/utils': 0.7.7
+      c12: 1.10.0
+      cac: 6.7.14
+      changelogen: 0.5.5
+      convert-gitmoji: 0.1.3
+      execa: 8.0.1
+      kolorist: 1.8.0
+      ofetch: 1.3.4
+      semver: 7.6.0
 
   chardet@0.7.0: {}
 
@@ -6210,10 +6210,10 @@ snapshots:
     dependencies:
       jsesc: 0.5.0
 
-  release-it-pnpm@4.3.6(release-it@17.2.0(typescript@5.4.5)):
+  release-it-pnpm@4.3.7(release-it@17.2.0(typescript@5.4.5)):
     dependencies:
       bumpp: '@hyoban/bumpp@9.4.0-1'
-      changelogithub: '@hyoban/changelogithub@0.13.6-0'
+      changelogithub: 0.13.7
       conventional-changelog: 5.1.0
       conventional-recommended-bump: 9.0.0
       kolorist: 1.8.0
