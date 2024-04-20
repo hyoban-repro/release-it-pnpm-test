@@ -1,9 +1,11 @@
 {
-	"plugins": {
-		"release-it-pnpm": {}
-	},
-	"git": {
-		"commitMessage": "chore: release ${version}",
-		"tagName": "${version}"
-	}
+  "plugins": {
+    "release-it-pnpm": {
+      "inFile": "CHANGELOG.md"
+    }
+  },
+  "git": {
+    "commitMessage": "chore: release ${version}",
+    "tagName": "${version}"
+  }
 }
