@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.1.1
+
+### &nbsp;&nbsp;&nbsp;Bug Fixes
+
+- Try &nbsp;-&nbsp; by **Stephen Zhou** [<samp>(d6361)</samp>](https://github.com/hyoban-repro/release-it-pnpm-test/commit/d636141)
+
+##### &nbsp;&nbsp;&nbsp;&nbsp;[View changes on GitHub](https://github.com/hyoban-repro/release-it-pnpm-test/compare/2.1.0...main)
+
 ## 2.1.0
 
 ### &nbsp;&nbsp;&nbsp;Features
