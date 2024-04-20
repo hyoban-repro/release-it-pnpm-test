@@ -30,8 +30,8 @@ importers:
         specifier: ^17.2.0
         version: 17.2.0(typescript@5.4.5)
       release-it-pnpm:
-        specifier: ^4.4.0
-        version: 4.4.0(release-it@17.2.0(typescript@5.4.5))
+        specifier: ^4.4.4
+        version: 4.4.4(release-it@17.2.0(typescript@5.4.5))
       typescript:
         specifier: ^5.4.5
         version: 5.4.5
@@ -2691,8 +2691,8 @@ packages:
     resolution: {integrity: sha512-qx+xQGZVsy55CH0a1hiVwHmqjLryfh7wQyF5HO07XJ9f7dQMY/gPQHhlyDkIzJKC+x2fUCpCcUODUUUFrm7SHA==}
     hasBin: true
 
-  release-it-pnpm@4.4.0:
-    resolution: {integrity: sha512-yU/ttoH7hI39s+peBsMIP273E7pa2FxRHMZZaIxh1RDxBe9v+yEi2V6GIEEcJpOIq4hmXHeNxn1Ocqnu4CGkSw==}
+  release-it-pnpm@4.4.4:
+    resolution: {integrity: sha512-oa3eDefZYjnVJOL1WgrRmmtj6mESr+Tcax8ubK4GQ5mwzdJNAPPP/mS0yzK3S1G+JytgQdW1SYySJTVAWFZjqw==}
     hasBin: true
     peerDependencies:
       release-it: ^17.0.0
@@ -6284,7 +6284,7 @@ snapshots:
     dependencies:
       jsesc: 0.5.0
 
-  release-it-pnpm@4.4.0(release-it@17.2.0(typescript@5.4.5)):
+  release-it-pnpm@4.4.4(release-it@17.2.0(typescript@5.4.5)):
     dependencies:
       bumpp: '@hyoban/bumpp@9.4.0-1'
       changelogithub: 0.13.7
