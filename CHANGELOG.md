@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.2.0
+
+*No significant changes*
+
+##### &nbsp;&nbsp;&nbsp;&nbsp;[View changes on GitHub](https://github.com/hyoban-repro/release-it-pnpm-test/compare/2.1.1...main)
+
 ## 2.1.1
 
 ### &nbsp;&nbsp;&nbsp;Bug Fixes
