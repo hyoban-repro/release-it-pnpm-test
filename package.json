@@ -1,7 +1,7 @@
 {
   "name": "@hyoban/release-it-pnpm-test",
   "type": "module",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "packageManager": "pnpm@9.0.4",
   "description": "",
   "author": {

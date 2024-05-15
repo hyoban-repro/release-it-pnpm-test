@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.3.0
+
+### &nbsp;&nbsp;&nbsp;Features
+
+- Update &nbsp;-&nbsp; by **Stephen Zhou** [<samp>(49d1e)</samp>](https://github.com/hyoban-repro/release-it-pnpm-test/commit/49d1eaa)
+
+##### &nbsp;&nbsp;&nbsp;&nbsp;[View changes on GitHub](https://github.com/hyoban-repro/release-it-pnpm-test/compare/2.2.0...main)
+
 ## 2.2.0
 
 *No significant changes*
